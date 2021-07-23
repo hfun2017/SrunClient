@@ -62,7 +62,7 @@ def humanable_bytes2(num_byte):
 class SrunClient:
     
     name = 'CUGB'
-    srun_ip = '202.204.105.195'
+    srun_ip = '192.168.167.13'
 
     login_url = 'http://{}/cgi-bin/srun_portal'.format(srun_ip)
     online_url = 'http://{}/cgi-bin/rad_user_info'.format(srun_ip)
